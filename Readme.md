@@ -8,7 +8,7 @@
 
 * **[MainForm.cs](./CS/BindingListForServerMode/MainForm.cs) (VB: [MainForm.vb](./VB/BindingListForServerMode/MainForm.vb))**
 <!-- default file list end -->
-# Server Mode - How to edit a focused GridView row in DataLayotControl
+# Server Mode - How to edit a focused GridView row in DataLayoutControl
 
 The standard approach (binding the GridControl and DataLayoutControl to the same collection) does not work in this scenario, because CurrencyManager does not manage [Server Mode Data Sources](https://docs.devexpress.com/WindowsForms/8398/Controls-and-Libraries/Data-Grid/Data-Binding/Large-Data-Sources-Server-and-Instant-Feedback-Modes#server-mode-data-sources). In addition, all [Server Mode Data Sources](https://docs.devexpress.com/WindowsForms/8398/Controls-and-Libraries/Data-Grid/Data-Binding/Large-Data-Sources-Server-and-Instant-Feedback-Modes#server-mode-data-sources) except for [XPServerCollectionSource](https://docs.devexpress.com/XPO/DevExpress.Xpo.XPServerCollectionSource) are read-only.
 
